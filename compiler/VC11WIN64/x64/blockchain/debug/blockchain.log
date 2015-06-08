@@ -1,0 +1,29 @@
+﻿Build started 08/06/2015 10:57:34.
+     1>Project "G:\Github\trunk\compiler\VC11WIN64\blockchain.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio Ultimate 2013\VC\bin\x86_amd64\CL.exe /c /I./../../config /IG:\Rippled\boost_1_57_0 /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX /Od /D WIN32 /D _WINDOWS /D UNICODE=1 /D _CRT_SECURE_NO_DEPRECATE /D OPEN_SOURCE=1 /D _DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Fo"./x64/blockchain/debug\\" /Fd"./x64/blockchain/debug\vc120.pdb" /Gd /TP /errorReport:prompt /W4 ..\..\Base58.cpp ..\..\BitcoinAddress.cpp ..\..\BlockChain.cpp ..\..\MemoryMap.cpp ..\..\BlockChainAddresses.cpp ..\..\main.cpp ..\..\RIPEMD160.cpp ..\..\SHA256.cpp
+     1>cl : Command line warning D9025: overriding '/W3' with '/W4'
+         Base58.cpp
+         BitcoinAddress.cpp
+         BlockChain.cpp
+         MemoryMap.cpp
+         BlockChainAddresses.cpp
+         main.cpp
+         RIPEMD160.cpp
+         SHA256.cpp
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio Ultimate 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"./../..\blockchain64DEBUG.exe" /NOLOGO /LIBPATH:G:\Rippled\boost_1_57_0\ /LIBPATH:G:\Rippled\boost_1_57_0\stage\lib /LIBPATH:"C:\OpenSSL-Win64\lib\VC\static" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"./../..\/blockchain64DEBUG.exe.pdb" /MAP:"./../..\/blockchain64DEBUG.exe.map" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"./../..\blockchain64DEBUG.lib" /MACHINE:X64 /DEBUG ./x64/blockchain/debug\Base58.obj
+         ./x64/blockchain/debug\BitcoinAddress.obj
+         ./x64/blockchain/debug\BlockChain.obj
+         ./x64/blockchain/debug\MemoryMap.obj
+         ./x64/blockchain/debug\BlockChainAddresses.obj
+         ./x64/blockchain/debug\main.obj
+         ./x64/blockchain/debug\RIPEMD160.obj
+         ./x64/blockchain/debug\SHA256.obj
+         blockchain.vcxproj -> G:\Github\trunk\compiler\VC11WIN64\./../..\blockchain64DEBUG.exe
+     1>Done Building Project "G:\Github\trunk\compiler\VC11WIN64\blockchain.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.70
